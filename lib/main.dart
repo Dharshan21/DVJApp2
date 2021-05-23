@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'First App',
+      title: 'Amazing App',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -77,7 +77,6 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.blue[900],
       ),
       body: Center(
-        
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: Column(
@@ -104,7 +103,6 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.share),
         backgroundColor: Colors.blue[900],
